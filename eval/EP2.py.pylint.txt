@@ -1,0 +1,339 @@
+************* Module EP2
+W: 17, 0: Cannot decode using encoding "ascii", unexpected byte at position 69 (invalid-encoded-data)
+W: 76, 0: Cannot decode using encoding "ascii", unexpected byte at position 20 (invalid-encoded-data)
+W:139, 0: Cannot decode using encoding "ascii", unexpected byte at position 47 (invalid-encoded-data)
+W:169, 0: Cannot decode using encoding "ascii", unexpected byte at position 30 (invalid-encoded-data)
+W:171, 0: Cannot decode using encoding "ascii", unexpected byte at position 23 (invalid-encoded-data)
+C:  7, 0: Exactly one space required around assignment
+meus_inspermons={"Aluno": [56, 32, 100]} #poder ataque -> poder defesa -> vida
+               ^ (bad-whitespace)
+C: 12, 0: Trailing whitespace (trailing-whitespace)
+C: 17, 0: Line too long (153/100) (line-too-long)
+C: 22, 0: Trailing whitespace (trailing-whitespace)
+C: 23, 0: Exactly one space required around assignment
+    meus_inspermons=dict()
+                   ^ (bad-whitespace)
+C: 24, 0: Exactly one space required around assignment
+    inspermons_selvagens=dict()
+                        ^ (bad-whitespace)
+C: 25, 0: Exactly one space required around assignment
+    insperdex=dict()
+             ^ (bad-whitespace)
+C: 26, 0: Exactly one space required around assignment
+    meus_inspermons=ast.literal_eval(lista[0])
+                   ^ (bad-whitespace)
+C: 27, 0: Exactly one space required around assignment
+    inspermons_selvagens=ast.literal_eval(lista[1])
+                        ^ (bad-whitespace)
+C: 28, 0: Exactly one space required around assignment
+    insperdex=ast.literal_eval(lista[2])
+             ^ (bad-whitespace)
+C: 29, 0: Trailing whitespace (trailing-whitespace)
+C: 31, 0: No space allowed before bracket
+def batalha (VidaInspermon, VidaPlayer, PoderPlayer, PoderIspermon, DefesaInspermon, DefesaPlayer):
+            ^ (bad-whitespace)
+C: 45, 0: Line too long (103/100) (line-too-long)
+C: 59, 0: Trailing whitespace (trailing-whitespace)
+C: 62, 0: No space allowed before bracket
+arquivo = open ("jogo.json", "w")
+               ^ (bad-whitespace)
+C: 67, 0: Exactly one space required around assignment
+laco=1
+    ^ (bad-whitespace)
+C: 70, 0: Line too long (104/100) (line-too-long)
+C: 70, 0: Exactly one space required around assignment
+    pergunta_inicial=input("Voce deseja: \n'passear';\n'ver inspermons';\n'ver insperdex';\n'dormir'? ")
+                    ^ (bad-whitespace)
+C: 71, 0: Exactly one space required around comparison
+    if pergunta_inicial=="ver insperdex":
+                       ^^ (bad-whitespace)
+C: 72, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 73, 0: Exactly one space required around comparison
+    elif pergunta_inicial=="ver inspermons":
+                         ^^ (bad-whitespace)
+C: 74, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 75, 0: Exactly one space required around comparison
+    elif pergunta_inicial=="dormir":
+                         ^^ (bad-whitespace)
+W: 76, 0: Bad indentation. Found 10 spaces, expected 8 (bad-indentation)
+C: 76, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W: 77, 0: Bad indentation. Found 10 spaces, expected 8 (bad-indentation)
+C: 78, 0: Exactly one space required around comparison
+    elif pergunta_inicial=="passear":
+                         ^^ (bad-whitespace)
+C: 86, 0: No space allowed before bracket
+        insperdex [inspermon] = inspermons_selvagens [inspermon]
+                  ^ (bad-whitespace)
+C: 86, 0: No space allowed before bracket
+        insperdex [inspermon] = inspermons_selvagens [inspermon]
+                                                     ^ (bad-whitespace)
+C: 88, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 91, 0: Exactly one space required around assignment
+            luta=input("Voce deseja:\n'batalhar',\n'fugir'\ntentar 'capturar'? ")
+                ^ (bad-whitespace)
+C: 94, 0: No space allowed before bracket
+                aleatorio5 = random.randint (0,9)
+                                            ^ (bad-whitespace)
+C: 94, 0: Exactly one space required after comma
+                aleatorio5 = random.randint (0,9)
+                                              ^ (bad-whitespace)
+C: 96, 0: Line too long (133/100) (line-too-long)
+C: 96, 0: Exactly one space required around assignment
+                    inspermon_utilizado=input("Dentre os inspermons a baixo:\n"+str(meus_inspermons)+"\nqual voce deseja utilizar? ")
+                                       ^ (bad-whitespace)
+C: 97, 0: Line too long (123/100) (line-too-long)
+C: 97, 0: Exactly one space required around comparison
+                    if inspermon_utilizado=="Aluno" or "Hage" or "Betao" or "Fernando" or "Romero" or "Daniel" or "Ferraz":
+                                          ^^ (bad-whitespace)
+C: 98, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:100, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:102, 0: Line too long (203/100) (line-too-long)
+C:102, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:102, 0: No space allowed before bracket
+                        print(batalha (100, 100, meus_inspermons[inspermon_utilizado][0], inspermons_selvagens[inspermon][0], inspermons_selvagens[inspermon][1], meus_inspermons[inspermon_utilizado][1]))
+                                      ^ (bad-whitespace)
+C:105, 0: Line too long (133/100) (line-too-long)
+C:105, 0: Exactly one space required around assignment
+                    inspermon_utilizado=input("Dentre os inspermons a baixo:\n"+str(meus_inspermons)+"\nqual voce deseja utilizar? ")
+                                       ^ (bad-whitespace)
+C:106, 0: Line too long (123/100) (line-too-long)
+C:106, 0: Exactly one space required around comparison
+                    if inspermon_utilizado=="Aluno" or "Hage" or "Betao" or "Fernando" or "Romero" or "Daniel" or "Ferraz":
+                                          ^^ (bad-whitespace)
+C:107, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:109, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:111, 0: Line too long (208/100) (line-too-long)
+C:111, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:111, 0: No space allowed before bracket
+                        print(batalhaSorte (100, 100, meus_inspermons[inspermon_utilizado][0], inspermons_selvagens[inspermon][0], inspermons_selvagens[inspermon][1], meus_inspermons[inspermon_utilizado][1]))
+                                           ^ (bad-whitespace)
+C:114, 0: Exactly one space required around assignment
+                aleatorio=random.randint(0, 9)
+                         ^ (bad-whitespace)
+C:115, 0: Exactly one space required after comparison
+                if aleatorio >5:
+                             ^ (bad-whitespace)
+C:117, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:119, 0: No space allowed before bracket
+                    aleatorio5 = random.randint (0,9)
+                                                ^ (bad-whitespace)
+C:119, 0: Exactly one space required after comma
+                    aleatorio5 = random.randint (0,9)
+                                                  ^ (bad-whitespace)
+C:121, 0: Line too long (137/100) (line-too-long)
+C:121, 0: Exactly one space required around assignment
+                        inspermon_utilizado=input("Dentre os inspermons a baixo:\n"+str(meus_inspermons)+"\nqual voce deseja utilizar? ")
+                                           ^ (bad-whitespace)
+C:122, 0: Line too long (127/100) (line-too-long)
+C:122, 0: Exactly one space required around comparison
+                        if inspermon_utilizado=="Aluno" or "Hage" or "Betao" or "Fernando" or "Romero" or "Daniel" or "Ferraz":
+                                              ^^ (bad-whitespace)
+C:123, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:125, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:127, 0: Line too long (207/100) (line-too-long)
+C:127, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:127, 0: No space allowed before bracket
+                            print(batalha (100, 100, meus_inspermons[inspermon_utilizado][0], inspermons_selvagens[inspermon][0], inspermons_selvagens[inspermon][1], meus_inspermons[inspermon_utilizado][1]))
+                                          ^ (bad-whitespace)
+C:130, 0: Line too long (137/100) (line-too-long)
+C:130, 0: Exactly one space required around assignment
+                        inspermon_utilizado=input("Dentre os inspermons a baixo:\n"+str(meus_inspermons)+"\nqual voce deseja utilizar? ")
+                                           ^ (bad-whitespace)
+C:131, 0: Line too long (127/100) (line-too-long)
+C:131, 0: Exactly one space required around comparison
+                        if inspermon_utilizado=="Aluno" or "Hage" or "Betao" or "Fernando" or "Romero" or "Daniel" or "Ferraz":
+                                              ^^ (bad-whitespace)
+C:132, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:134, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:136, 0: Line too long (212/100) (line-too-long)
+C:136, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:136, 0: No space allowed before bracket
+                            print(batalhaSorte (100, 100, meus_inspermons[inspermon_utilizado][0], inspermons_selvagens[inspermon][0], inspermons_selvagens[inspermon][1], meus_inspermons[inspermon_utilizado][1]))
+                                               ^ (bad-whitespace)
+C:139, 0: Line too long (106/100) (line-too-long)
+C:139, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:140, 0: Exactly one space required after comparison
+                if aleatorio <=5:
+                             ^^ (bad-whitespace)
+C:142, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:146, 0: Line too long (144/100) (line-too-long)
+C:146, 0: Exactly one space required around assignment
+                inspermon_utilizado=input("Dentre os inspermons a baixo:\n"+str(meus_inspermons)+"\nqual voce deseja utilizar para a captura? ")
+                                   ^ (bad-whitespace)
+C:147, 0: Exactly one space required around assignment
+                aleatorio2=random.randint(0, 9)
+                          ^ (bad-whitespace)
+C:151, 0: Trailing whitespace (trailing-whitespace)
+C:151, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:156, 0: Line too long (109/100) (line-too-long)
+C:156, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:161, 0: Trailing whitespace (trailing-whitespace)
+C:161, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:166, 0: Line too long (109/100) (line-too-long)
+C:166, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:169, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:171, 0: Line too long (106/100) (line-too-long)
+W:171, 0: Bad indentation. Found 9 spaces, expected 8 (bad-indentation)
+C:171, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:174, 0: No space allowed before bracket
+with open ("jogo.json", "w") as arquivo:
+          ^ (bad-whitespace)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Invalid constant name "meus_inspermons" (invalid-name)
+C:  8, 0: Invalid constant name "inspermons_selvagens" (invalid-name)
+C: 14, 0: Invalid constant name "insperdex" (invalid-name)
+C: 17, 0: Invalid constant name "pergunta" (invalid-name)
+C: 20, 8: Invalid constant name "lista" (invalid-name)
+C: 23, 4: Invalid constant name "meus_inspermons" (invalid-name)
+C: 24, 4: Invalid constant name "inspermons_selvagens" (invalid-name)
+C: 25, 4: Invalid constant name "insperdex" (invalid-name)
+C: 26, 4: Invalid constant name "meus_inspermons" (invalid-name)
+C: 27, 4: Invalid constant name "inspermons_selvagens" (invalid-name)
+C: 28, 4: Invalid constant name "insperdex" (invalid-name)
+C: 31, 0: Invalid argument name "VidaInspermon" (invalid-name)
+C: 31, 0: Invalid argument name "VidaPlayer" (invalid-name)
+C: 31, 0: Invalid argument name "PoderPlayer" (invalid-name)
+C: 31, 0: Invalid argument name "PoderIspermon" (invalid-name)
+C: 31, 0: Invalid argument name "DefesaInspermon" (invalid-name)
+C: 31, 0: Invalid argument name "DefesaPlayer" (invalid-name)
+C: 31, 0: Missing function docstring (missing-docstring)
+R: 31, 0: Too many arguments (6/5) (too-many-arguments)
+C: 45, 0: Invalid function name "batalhaSorte" (invalid-name)
+C: 45, 0: Invalid argument name "VidaInspermon" (invalid-name)
+C: 45, 0: Invalid argument name "VidaPlayer" (invalid-name)
+C: 45, 0: Invalid argument name "PoderPlayer" (invalid-name)
+C: 45, 0: Invalid argument name "PoderIspermon" (invalid-name)
+C: 45, 0: Invalid argument name "DefesaInspermon" (invalid-name)
+C: 45, 0: Invalid argument name "DefesaPlayer" (invalid-name)
+C: 45, 0: Missing function docstring (missing-docstring)
+R: 45, 0: Too many arguments (6/5) (too-many-arguments)
+C: 59, 0: Invalid constant name "meus_inspermons_str" (invalid-name)
+C: 60, 0: Invalid constant name "inspermons_selvagens_str" (invalid-name)
+C: 61, 0: Invalid constant name "insperdex_str" (invalid-name)
+C: 62, 0: Invalid constant name "arquivo" (invalid-name)
+C: 67, 0: Invalid constant name "laco" (invalid-name)
+C: 70, 4: Invalid constant name "pergunta_inicial" (invalid-name)
+C: 79, 8: Invalid constant name "inspermon" (invalid-name)
+C: 80, 8: Invalid constant name "inspermon" (invalid-name)
+C: 81, 8: Invalid constant name "inspermon" (invalid-name)
+C: 82, 8: Invalid constant name "inspermon" (invalid-name)
+C: 83, 8: Invalid constant name "inspermon" (invalid-name)
+C: 84, 8: Invalid constant name "inspermon" (invalid-name)
+C: 85, 8: Invalid constant name "inspermon" (invalid-name)
+C: 91,12: Invalid constant name "luta" (invalid-name)
+C: 94,16: Invalid constant name "aleatorio5" (invalid-name)
+C: 96,20: Invalid constant name "inspermon_utilizado" (invalid-name)
+R: 97,23: Too many boolean expressions in if statement (7/5) (too-many-boolean-expressions)
+C:105,20: Invalid constant name "inspermon_utilizado" (invalid-name)
+R:106,23: Too many boolean expressions in if statement (7/5) (too-many-boolean-expressions)
+C:114,16: Invalid constant name "aleatorio" (invalid-name)
+C:119,20: Invalid constant name "aleatorio5" (invalid-name)
+C:121,24: Invalid constant name "inspermon_utilizado" (invalid-name)
+R:122,27: Too many boolean expressions in if statement (7/5) (too-many-boolean-expressions)
+C:130,24: Invalid constant name "inspermon_utilizado" (invalid-name)
+R:131,27: Too many boolean expressions in if statement (7/5) (too-many-boolean-expressions)
+C:146,16: Invalid constant name "inspermon_utilizado" (invalid-name)
+C:147,16: Invalid constant name "aleatorio2" (invalid-name)
+
+
+Report
+======
+158 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |2      |1          |+1.00      |0.00        |50.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |162    |89.01 |66       |+96.00     |
++----------+-------+------+---------+-----------+
+|docstring |5      |2.75  |0        |+5.00      |
++----------+-------+------+---------+-----------+
+|comment   |2      |1.10  |8        |-6.00      |
++----------+-------+------+---------+-----------+
+|empty     |13     |7.14  |9        |+4.00      |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |141    |88       |+53.00     |
++-----------+-------+---------+-----------+
+|refactor   |6      |0        |+6.00      |
++-----------+-------+---------+-----------+
+|warning    |8      |11       |-3.00      |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------------+------------+
+|message id                   |occurrences |
++=============================+============+
+|invalid-name                 |47          |
++-----------------------------+------------+
+|bad-whitespace               |40          |
++-----------------------------+------------+
+|superfluous-parens           |25          |
++-----------------------------+------------+
+|line-too-long                |20          |
++-----------------------------+------------+
+|trailing-whitespace          |6           |
++-----------------------------+------------+
+|invalid-encoded-data         |5           |
++-----------------------------+------------+
+|too-many-boolean-expressions |4           |
++-----------------------------+------------+
+|missing-docstring            |3           |
++-----------------------------+------------+
+|bad-indentation              |3           |
++-----------------------------+------------+
+|too-many-arguments           |2           |
++-----------------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 0.19/10 (previous run: -5.23/10, +5.42)
+
